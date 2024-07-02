@@ -1,0 +1,2 @@
+module Q392IsSubsequence
+end
