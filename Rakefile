@@ -20,6 +20,9 @@ end
 
 class #{module_name}Test < Minitest::Test
   include #{module_name}
+
+  def test_it_works
+  end
 end
 }
 
