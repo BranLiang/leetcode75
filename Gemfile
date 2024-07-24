@@ -4,3 +4,6 @@ source "https://rubygems.org"
 
 gem "minitest"
 gem "zeitwerk"
+
+# Data structure
+gem "rb_heap"
