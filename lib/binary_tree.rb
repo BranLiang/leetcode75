@@ -8,7 +8,6 @@ class BinaryTree
   private
 
   def build_tree(index)
-    puts index
     return nil if index >= @arr.length || @arr[index].nil?
 
     node = TreeNode.new(@arr[index])
