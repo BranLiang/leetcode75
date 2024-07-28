@@ -1,16 +1,14 @@
 class BinaryTree
+  attr_reader :root
   def initialize(arr)
     @arr = arr
     @root = build_tree(0)
   end
 
-  def root
-    @root
-  end
-
   private
 
   def build_tree(index)
+    puts index
     return nil if index >= @arr.length || @arr[index].nil?
 
     node = TreeNode.new(@arr[index])

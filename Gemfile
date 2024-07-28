@@ -7,3 +7,4 @@ gem "zeitwerk"
 
 # Data structure
 gem "rb_heap"
+gem "debug"

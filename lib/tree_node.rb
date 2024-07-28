@@ -5,4 +5,8 @@ class TreeNode
       @left = left
       @right = right
   end
+
+  def inspect
+    "<Node left=#{left&.val} right=#{right&.val} val=#{val}>"
+  end
 end
