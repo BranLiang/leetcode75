@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/longest-common-prefix
+
 module Q14LongestCommonPrefix
   def longest_common_prefix(strs)
     first = strs[0]

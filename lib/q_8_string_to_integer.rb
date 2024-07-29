@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/string-to-integer-atoi
+
 module Q8StringToInteger
   def my_atoi(s)
     chars = s.strip.chars

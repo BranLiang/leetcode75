@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/zigzag-conversion
+
 module Q6ZigzagConversion
   def convert(s, num_rows)
     row = 0

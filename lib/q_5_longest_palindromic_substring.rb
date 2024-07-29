@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/longest-palindromic-substring
+
 module Q5LongestPalindromicSubstring
 
   def longest_palindrome(s)

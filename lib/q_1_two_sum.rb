@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/two-sum
+
 module Q1TwoSum
   def two_sum(sums, target)
     values = {}
